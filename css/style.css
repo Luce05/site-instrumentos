@@ -1,5 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.navbar-brand{
+    font-weight: bolder;
+}
+
+.offcanvas-title{
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+hr{
+    width: 90%;
+    margin: auto;
+}
+
+.offcanvas-body{
+    font-weight: bolder;
+}
+
+
+.dropdown-item:hover{
+    background-color: #FAA613;
+}
+
+h2 {
+    width: 95%;
+    text-align: center;
+    font-weight: lighter;
+    border-bottom: 1px solid #FAA613;
+    line-height: 0.1em;
+    margin: auto;
+    margin-top: 80px;
+    color: #FAA613;
+
+}
+
+ h2 span {
+     background: rgb(29, 29, 29);
+     padding:0 10px;
+}
+
+.row{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.card{
+    margin: auto;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    border: none;
 }
 
