@@ -10,6 +10,18 @@ html{
     scroll-behavior: smooth;
 }
 
+body::-webkit-scrollbar {
+    width: 10px
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: black;
+}
+
+body::-webkit-scrollbar-track{
+    background-color: rgba(255, 255, 255, 0);
+}
+
 body{
     overflow-x: hidden;
 }
@@ -101,10 +113,6 @@ footer{
     width: 100%;
     background-color: #FAA613;
     color: black;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 20px;
 }
 
 footer a{
@@ -113,15 +121,36 @@ footer a{
 }
 
 footer a:hover{
-    color: black;
+    color: #442e09;
+}
+
+.inf-title{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.inf{
+    padding-top: 40px;
+    font-size: 13px;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: bold;
 }
 
 @media only screen and (max-width: 600px) {
     .navbar-brand{
         font-size: 25px;
     }
+
     #offcanvasNavbar{
         width: 250px;
+    }
+
+    footer{
+        height: 1000px;
+        width: 100%;
     }
 }
 
