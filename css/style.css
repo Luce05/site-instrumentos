@@ -130,7 +130,6 @@ footer a:hover{
 }
 
 .inf{
-    padding-top: 40px;
     font-size: 13px;
 }
 
@@ -139,19 +138,47 @@ footer a:hover{
     font-weight: bold;
 }
 
+.box-info{
+    height: 200px;
+    width: 300px;
+    margin: auto;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    right: 0;
+    position: absolute;
+    margin: 20px;
+    width: 400px;
+}
+
 @media only screen and (max-width: 600px) {
     .navbar-brand{
         font-size: 25px;
     }
 
-    #offcanvasNavbar{
-        width: 250px;
+    footer{
+        height: 550px;
+        width: 100%;
+        text-align: center;
     }
 
-    footer{
-        height: 1000px;
+    .box{
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 0;
+        position: relative;
         width: 100%;
     }
+
+    .box-info2{
+        margin: auto;
+        text-align: center;
+        margin: 20px;
+    }
+
+
 }
 
 
