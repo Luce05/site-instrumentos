@@ -61,8 +61,12 @@ hr{
     font-weight: bolder;
 }
 
+.dropdown-menu hr{
+    color: black;
+}
+
 .dropdown-item:hover{
-    background-color: #FAA613;
+    background-color: #c27d06;
 }
 
 h2 {
